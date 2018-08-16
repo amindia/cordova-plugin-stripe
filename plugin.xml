@@ -29,7 +29,8 @@
         <header-file src="src/ios/CordovaStripe.h" />
         <source-file src="src/ios/CordovaStripe.m" />
 
-        <framework src="Stripe" type="podspec" spec=""/>
+        <!-- Downloaded here: https://github.com/stripe/stripe-ios/releases/latest -->
+        <framework src="src/ios/libs/Stripe.framework" custom="true" />
 
 
     </platform>
